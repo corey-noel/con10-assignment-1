@@ -2,15 +2,6 @@ body {
 	background-color: #DDE;
 }
 
-a {
-	text-decoration: underline;
-	color: #B11;
-}
-
-a:hover {
-	color: #FFF;
-}
-
 #sidebar {
 	position: fixed;
 	top: 0;
@@ -41,15 +32,6 @@ a:hover {
 	color: #D11;
 }
 
-.spin-baby-spin {
-	-webkit-animation: rotation 5s infinite linear;
-
-	display: block;
-	margin: 0 auto;
-	margin-top: 150px;
-	margin-bottom: 150px;
-}
-
 .intro {
 	width: 500px;
 	display: block;
@@ -59,6 +41,24 @@ a:hover {
 
 	color: #F11;
 	font-family: Verdana;
+}
+
+.intro a {
+	text-decoration: underline;
+	color: #B11;
+}
+
+.intro a:hover {
+	color: #FFF;
+}
+
+.spin-baby-spin {
+	-webkit-animation: rotation 5s infinite linear;
+
+	display: block;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
 }
 
 @-webkit-keyframes rotation {

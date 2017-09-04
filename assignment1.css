@@ -1,0 +1,41 @@
+body {
+	background-color: #223;
+}
+
+a {
+	text-decoration: underline;
+	color: #B11;
+}
+
+a:hover {
+	color: #FFF;
+}
+
+#spin-baby-spin {
+	-webkit-animation: rotation 5s infinite linear;
+
+	display: block;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.intro {
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+
+	text-align: left;
+
+	color: #F11;
+	font-family: Verdana;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}

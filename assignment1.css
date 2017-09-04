@@ -1,5 +1,5 @@
 body {
-	background-color: #223;
+	background-color: #DDE;
 }
 
 a {
@@ -11,7 +11,37 @@ a:hover {
 	color: #FFF;
 }
 
-#spin-baby-spin {
+#sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 100%;
+	z-index: 1;
+	overflow-x: hidden;
+	padding-top: 30px;
+	background-color: #223;
+}
+
+#sidebar a {
+	padding: 10px 10px 10px 15px;
+	display: block;
+
+	font-size: 28px;
+	font-family: Verdana;
+	text-decoration: none;
+	color: #B11;
+	text-align:center;
+
+	transition: 0.3s;
+}
+
+#sidebar a:hover {
+	background-color: #112;
+	color: #D11;
+}
+
+.spin-baby-spin {
 	-webkit-animation: rotation 5s infinite linear;
 
 	display: block;
